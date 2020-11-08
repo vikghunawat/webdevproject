@@ -1,0 +1,623 @@
+body{
+    background-image: url("photo2.jpg");
+    background-attachment: fixed;
+    background-attachment: fixed;
+}
+
+
+/* Add the My team part in your site
+also add the social media buttons
+also add the Icon buttons
+also add the about us page
+ */
+
+
+
+
+
+*{margin: 0;padding: 0; box-sizing: border-box;}
+/* 
+.header{
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}  */
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* color: ivory; */
+  }
+
+/* .nav-item{
+    float: right;
+}
+
+.navbar{
+    height: 70px;
+}
+
+.nav-link{
+    background-color: chartreuse;
+} */
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+
+/* .header:before{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    opacity: 0.2;
+    z-index: -1;
+    background: linear-gradient(to right,#4e2c2c 0%, #3ccdbb 0%, #307485 100%);
+} */
+.center-div h1{
+    font-family: "bangers", cursive;
+    font-size: 60px;
+}
+
+.center-div p{
+    font-family: 'Satisfy', cursive;
+    font-size: 1.9rem;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.container{
+    padding-bottom: 0%;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.134),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.148),
+  0 12.5px 10px rgba(0, 0, 0, 0.16),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.172),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.186),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+    background-color: lightcyan;
+}
+
+/* one more testing */
+
+.nav-item{
+    color: black;
+}
+
+.nav-item a{
+    color: black;
+}
+
+
+@media (min-width: 300px) and (max-width: 1000px) {
+        .navbar:not(.top-nav-collapse) {
+        padding-bottom: 80px;
+        background: #1C2331!important;
+    }
+
+    .header-section h1{
+        visibility: hidden;
+    }
+
+    .video iframe{
+        padding-bottom: 10px;
+        padding-right: 25%;
+        display: block;
+        width: 480px;
+        height: 215px;
+    }
+
+    .videoinfo{
+        margin-right: 130px;
+        width: 180px;
+        float: left;
+    }
+
+    .main h1{
+        font-size: 24px;
+        display: inline-block;
+    }
+
+    .main{
+        display: block;
+    }
+
+    .center-div p{
+        margin-left: 10%;
+        margin-bottom: 20%;
+        font-size: 16px;
+    }
+
+}
+
+/* .navbar{
+    width: 100%;
+    background-color:rgba(0,0,0,0.2);
+} */
+.top-nav-collapse{
+    background-color:#1C2331
+}
+@media only screen and (max-width:1168px){
+    .navbar{
+        background-color:#1C2331;
+        width: 100%;
+        z-index: 10;
+    } 
+
+    /* .container-fluid{
+        background-color: rgb(21, 21, 29);
+        width: 100%; */
+    }
+}
+
+/* .navbar{
+    background-color: rgba(0, 0, 0, 0.86);
+    height: 100px;
+} */
+
+.header-section{
+    border: 2px solid black;
+    border-radius: 14px 14px;
+    background-color: rgba(0, 0, 0, 0.86);
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.header-section h1{
+    color: seashell;
+    position: absolute;
+    top: 60%;
+    padding-left: 10%;
+    bottom: 8px;
+    left: 16px;
+    font-size: 70px;
+}
+
+.header-section p{
+    position: relative;
+    top: 20%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header-extradiv{
+    float: left;
+    margin-left: 20px;
+}
+
+.link{
+    color: black;
+}
+
+.slider:hover{
+    padding-bottom: 10px;
+
+}
+
+/* The carousel after the navbar  */
+/* Zooming the transfer carousel over hover */
+.zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+    padding-bottom: 10px;
+  }
+
+.link:hover{
+    color: mediumpurple;
+    text-decoration: underline;
+}
+
+
+/* The news headline over the carousel */
+/* .headline:hover{
+    
+} */
+.headline{
+    padding-top: 65px;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;  
+    font-size: 50px;
+}
+/* End of Css for news */
+
+.afternews{
+    border-top: 1px solid #525588;
+    box-shadow: 2px 2px 2px 2px #525588;
+}
+
+
+
+.news {
+    margin-top: 10px;
+    width: 160px;
+    height: 50px;
+}
+
+.news-scroll a {
+    text-decoration: none
+}
+
+.contain{
+    border: 1px solid red;
+    padding-bottom: 10px;
+}
+
+.dot {
+    height: 6px;
+    width: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 1px !important;
+    background-color: rgb(207, 23, 23);
+    border-radius: 50%;
+    display: inline-block
+}
+
+/* testing  */
+/* .nav-bar{
+    display: flex;
+    padding: 20px 60px;
+}
+
+.nav-logo img{
+    width: 180px;
+    border-radius: 2px;
+    border-color: black;
+
+}
+
+.nav-links{
+    flex: 1;
+}
+
+.nav-links ul{
+    margin-left: 50px;
+    display: inline;
+}
+
+.nav-links ul li{
+    color: black;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+}
+
+.nav-links ul a{
+    color:black;
+    text-decoration: none;
+    font-size: 17px ;   
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: yellow;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.butn{
+    padding: 10px 20px ;
+    border: 0;
+    background : yellow;
+    font-weight: bold;
+    cursor: pointer;
+    float: right ;
+} */
+
+/* 
+the upper portion is the navbar part and is to be taken to the top at the end */
+
+/*now we have a video part */
+
+.video{
+    padding-top: 40px;
+    margin-left: 20px;
+}
+
+#newshead{
+    font-size: 45px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.videoinfo p{
+    padding:5px 5px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.videoinfo{
+    padding-left: 10px;
+    margin-left: 0%;
+    width: 380px;
+    float: right;
+}
+
+/* The part before the gallery about player info */
+.main{
+    padding: 10px 10px;
+  }
+  .content{
+    border-right: 2px solid black;
+    height: 360px;
+    padding: 5px 5px;
+  }
+
+  .content a{
+      color: black;
+  }
+
+  .content a:hover{
+      color: cornflowerblue;
+  }
+
+
+  .playerinfo{
+      border-radius: 2px;
+      background-color: honeydew;
+  }
+
+
+  .contain-new{
+      padding-top: 20px;
+      margin-top: ;
+  }
+
+/* 
+Next is the gallery part  */
+
+.gallery{
+    border: black;
+    box-sizing: border-box;
+    padding: 25px 20px;
+    margin: 0px 30px ;
+}
+
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  /* The headline of the gallery */
+  .galleryheadlines{
+      text-align: center    ;
+      padding-top: 30px;
+      padding-left: 10px;
+  }
+
+  .galleryhead{
+      padding-top: 10px;
+      padding-left: 10px;
+  }
+
+/* Up comes the newsletter  */
+.letter {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+
+  /* Next is the footer  */
+
+  /* .foot:before:after{
+        box-sizing: border-box;
+        width: 100vh;
+        height: 600px;
+        }
+  } */
+
+  
+    .footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #fff;
+    background-color: rgb(21, 21, 29);
+    }
+    
+    .footer > * {
+    flex:  1 100%;
+    }
+    
+    .l-footer {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+    }
+
+    .l-footer .first-char{
+        font-weight: bold;
+        font-size:3rem;
+        color:rgb(121, 175, 12);
+        margin-left: 2%;
+    }
+    .l-footer h3{
+        font-style: italic;
+        font-size: large;
+        margin-left: 1%;
+    }
+    
+    h2 {
+    font-weight: 400;
+    font-size: 15px;
+    }
+    
+    .footer ul {
+    list-style: none;
+    padding-left: 0;
+    }
+    
+    .footer li {
+    line-height: 2em;
+    }
+    
+    .footer a {
+    text-decoration: none;
+    }
+    
+    .r-footer {
+    display: flex;
+    flex-flow: row wrap;
+    }
+    
+    .r-footer > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+    }
+    
+    .box a {
+    color: #999;
+    }
+    
+    .h-box {
+    column-count: 1;
+    column-gap: 1.25em;
+    }
+    
+    .b-footer {
+    text-align: center;
+    color: #999;
+    padding-top: 50px;
+    }
+    
+    .l-footer p {
+    padding-right: 20%;
+    color: rgb(233, 218, 218);
+    }   
+
+    @media screen and (min-width: 600px) {
+    .r-footer > * {
+    flex: 1;
+    }
+    
+    .features {
+    flex-grow: 1;
+    }
+    
+    .l-footer {
+    flex: 1 0px;
+    }
+    
+    .r-footer {
+    flex: 2 0px;
+    }
+    }
+    
+    .endfoot{
+        font-size: 17px;
+        color: thistle;
+        height: 50px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.86);
+    }

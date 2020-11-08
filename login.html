@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet"  href="style.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+</head>
+<body>
+<div class="hero">
+<div class="form-box">   
+<div class="button-box">
+	<div id="btn"></div>
+	<button type="button" class="toggle-btn" onclick="login()">Log In</button>
+	<button type="button" class="toggle-btn" onclick="register()">Register</button>
+</div>
+<div class="social-icons">
+	<a href="https://www.facebook.com/"><i class="fa fa-facebook-square"  aria-hidden="true" style="padding-right: 2px;"></i></a>
+	<a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true" style="padding-right: 2px;"></i></a>
+	<a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true" style="padding-right: 2px;"></i></a>
+</div>
+
+<form id="login" class="input-group">
+	<input type="text" class="input-field" id="user" placeholder="User Id" required>
+	<input type="text" class="input-field" id="password" placeholder="Enter Password" required>
+	<input type="checkbox" class="check-box"><span>Remember Password</span>
+	<button type="submit" class="submit-btn">Log in</button>
+	
+</form>
+
+<form id="register" class="input-group">
+	<input type="text" class="input-field" id="user" placeholder="User Id" required>
+	<input type="text" class="input-field" id="email" placeholder="Email Id" required>
+	<input type="text" class="input-field" id="password" placeholder="Enter Password" required>
+	<input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+	<button type="submit" class="submit-btn">Register</button>
+	
+</form>
+</div>	
+</div>
+<script>
+	var x = document.getElementById("login");
+	var y = document.getElementById("register");
+	var z = document.getElementById("btn");
+
+	function register(argument) {
+		// body...
+		x.style.left = "-400px";
+		y.style.left = "50px";
+		z.style.left = "110px";
+	}
+
+	function login(argument) {
+		// body...
+		x.style.left = "50px";
+		y.style.left = "450px";
+		z.style.left = "0px";
+	}
+
+var u = document.getElementById("user").value;
+var e = document.getElementById("email").value;
+var p = document.getElementById("password").value;
+
+</script>
+</body>
+</html>
